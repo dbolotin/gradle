@@ -807,8 +807,15 @@
   {
     "dirName": "wrapper",
     "name": "wrapper",
-    "unitTests": true,
+    "unitTests": false,
     "functionalTests": true,
     "crossVersionTests": true
+  },
+  {
+    "dirName": "wrapper-shared",
+    "name": "wrapper-shared",
+    "unitTests": true,
+    "functionalTests": true,
+    "crossVersionTests": false
   }
 ]
